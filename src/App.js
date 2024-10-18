@@ -12,7 +12,7 @@ function App() {
       {/* <Home /> */}
       {/* <RestaurantDetails /> */}
       {/*<Cart />*/}
-        {/*  <Profile/>*/}
+      {/*    <Profile/>*/}
         <CustomerRouters/>
     </ThemeProvider>
   );
