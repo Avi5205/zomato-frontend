@@ -10,7 +10,7 @@ const UserProfile = () => {
                 <AccountCircleIcon sx={{fontSize: '9rem'}}/>
                 <h1 className="py-5 text-2xl font-semibold">ZOMATO</h1>
                 <p>Email:support@zomato.com</p>
-                <Button onClick={handleLogout()} sx={{margin:"2rem 0rem"}}>Logout</Button>
+                <Button variant='contained' onClick={handleLogout()} sx={{margin:"2rem 0rem"}}>Logout</Button>
             </div>
         </div>
     )
